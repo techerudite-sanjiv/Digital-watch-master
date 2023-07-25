@@ -1,0 +1,42 @@
+.clock{
+display: flex;
+align-items: center;
+margin: 200px 0;
+justify-content: center;
+}
+.round{
+    background-color: #040402;
+    padding: 15px 40px  ;
+    width: 50px;
+    margin: 0 5px ;
+    border-radius: 75px;
+}
+.round h2{
+    color: #fff;
+}
+.round p{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.format h2{
+    color: #ffea06fd;
+   
+}
+@media screen and (max-width: 480px) {
+  
+        .round{
+            background-color: #040402;
+            padding: 4px 32px  ;
+            width: 30px;
+           
+            border-radius: 75px;
+        }
+        .round p{
+          
+            font-size: 9px;
+           
+        }
+  }
